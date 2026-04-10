@@ -497,15 +497,14 @@
   }
 
   /*
-   * Sidebar is fixed with padding-top: $masthead-height so logo aligns under masthead.
-   * Drop #main top margin and the first h2's top margin so main headings line up with
-   * sidebar top instead of stacking ~4em of whitespace below the nav.
+   * Fixed sidebar uses padding-top: $masthead-height. Trim the old 2em+2em stack, but
+   * keep a little air under the masthead so the first heading is not glued to the nav.
    */
   #main {
-    margin-top: 0;
+    margin-top: 1em;
   }
 
   #main > .page .page__content > h2:first-child {
-    margin-top: 0;
+    margin-top: 1em;
   }
 }
