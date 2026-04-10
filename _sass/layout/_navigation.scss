@@ -204,8 +204,11 @@
   }
 
   .visible-links {
-    /* Flex keeps every item’s block top flush; table-cell + mixed fonts often looked “mid-aligned” */
-    display: flex;
+    /*
+     * inline-flex shrink-wraps to link row width. Plain flex stretches to 100% of nav, so jQuery.greedy-navigation’s
+     * $vlinks.width() === full bar width and every item is moved into “≡” as if overflowing.
+     */
+    display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;

@@ -662,14 +662,14 @@
   }
 
   /*
-   * Fixed sidebar uses padding-top: $masthead-height. Trim the old 2em+2em stack, but
-   * keep a little air under the masthead so the first heading is not glued to the nav.
+   * Sidebar logo sits flush under masthead (padding-top = masthead). Main column should start
+   * at the same vertical offset so the first in-content heading lines up with the logo top.
    */
   #main {
-    margin-top: 1em;
+    margin-top: 0;
   }
 
-  #main > .page .page__content > h2:first-child {
-    margin-top: 1em;
+  #main > .page .page__content > h2:first-of-type {
+    margin-top: 0;
   }
 }
