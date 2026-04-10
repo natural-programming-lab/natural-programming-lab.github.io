@@ -25,11 +25,11 @@ author:
   logo             : "NPL-logo.svg"   # wide logo in sidebar; omit to use circular avatar only
   logo_alt         : "Natural Programming Lab"
   avatar           : "profile.png"   # used when logo is blank
-  name             : "Your Sidebar Name"
+  name             : # "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : # "Short biography for the left-hand sidebar"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Nanyang Technological University"
   uri              : # URL
   email            : "none@example.org" 
 
