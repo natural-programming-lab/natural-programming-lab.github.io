@@ -686,4 +686,9 @@
   #main > .page .page__inner-wrap > header h1.page__title {
     margin-top: 1.75rem;
   }
+
+  /* Archive layout (Publications, etc.): title is h1.page__title direct under .archive, not in article header */
+  #main > .archive > h1.page__title {
+    margin-top: 1.75rem;
+  }
 }
