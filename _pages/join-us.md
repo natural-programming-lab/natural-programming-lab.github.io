@@ -3,8 +3,6 @@ permalink: /join-us/
 title: "Join Natural Programming Lab"
 author_profile: true
 ---
-## Join Natural Programming Lab
-
 We are always looking for motivated students and collaborators interested in **AI for programming, natural programming interfaces, and program synthesis**.
 
 ### 🎓 Students
@@ -13,6 +11,7 @@ We welcome applications from:
 * PhD students
 * Master students
 * Undergraduate researchers
+
 If you are interested in working with us, please send:
 * CV
 * Transcript (if available)
@@ -37,5 +36,6 @@ Feel free to reach out if you are interested in joint research, projects, or int
 ---
 
 ### 📌 Note
+
 Positions are subject to funding availability. Strong candidates with backgrounds in **machine learning, programming languages, or software engineering** are especially encouraged to apply.
 
