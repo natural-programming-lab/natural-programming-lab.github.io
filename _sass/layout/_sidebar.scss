@@ -364,7 +364,8 @@
   #main > .page,
   #main > .archive {
     margin-left: span(2 of 12);
-    padding-left: 2.75rem;
+    /* Visible gutter beside fixed sidebar (prior small bumps were easy to miss on wide screens) */
+    padding-left: clamp(2.75rem, 2rem + 2.5vw, 5.5rem);
     box-sizing: border-box;
   }
 }

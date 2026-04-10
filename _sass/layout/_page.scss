@@ -399,3 +399,11 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Extra inset for title + body inside article when left sidebar is fixed */
+@media screen and (min-width: $sidebar-screen-min-width) {
+  #main > .page .page__inner-wrap {
+    padding-left: clamp(1rem, 0.5rem + 1.5vw, 2.75rem);
+    box-sizing: border-box;
+  }
+}
