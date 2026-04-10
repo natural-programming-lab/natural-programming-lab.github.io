@@ -181,6 +181,7 @@
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
+    line-height: 1.25;
     color: var(--global-masthead-link-color);
     text-decoration: none;
 
@@ -203,16 +204,22 @@
   }
 
   .visible-links {
-    display: table;
+    /* Flex keeps every item’s block top flush; table-cell + mixed fonts often looked “mid-aligned” */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
 
     li {
-      display: table-cell;
-      /* Top-align so nav links stay level with the first line of the site title when it wraps */
-      vertical-align: top;
+      display: block;
+      flex: 0 0 auto;
+      list-style: none;
 
       &:first-child {
         font-weight: bold;
-        text-wrap: wrap;
+        /* Beat .masthead__menu-item { white-space: nowrap } so long site titles can wrap */
+        white-space: normal;
 
         a {
           margin-left: 0;
@@ -231,6 +238,7 @@
         width: 25px;
         display: flex;
         justify-content: center;
+        align-items: flex-start;
         cursor: pointer;
       }
     }
