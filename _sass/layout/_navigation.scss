@@ -207,7 +207,8 @@
 
     li {
       display: table-cell;
-      vertical-align: middle;
+      /* Top-align so nav links stay level with the first line of the site title when it wraps */
+      vertical-align: top;
 
       &:first-child {
         font-weight: bold;
