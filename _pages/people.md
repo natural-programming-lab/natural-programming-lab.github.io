@@ -16,8 +16,6 @@ author_profile: true
   </div>
 </div>
 
----
-
 ## PhD students
 
 <div class="people-grid" markdown="0">
