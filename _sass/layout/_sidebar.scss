@@ -342,26 +342,6 @@
     }
   }
 
-  /* College: single line, full string visible — slightly smaller type + horizontal scroll if still too long */
-  li.author__college {
-    @include breakpoint($large) {
-      white-space: nowrap;
-      max-width: 100%;
-      overflow-x: auto;
-      overflow-y: hidden;
-      font-size: clamp(0.62rem, calc(0.52rem + 0.28vw), 0.74rem);
-      letter-spacing: -0.02em;
-      line-height: 1.35;
-      scrollbar-width: thin;
-
-      a {
-        white-space: nowrap;
-        font-size: inherit;
-        display: inline;
-      }
-    }
-  }
-
   a {
     display: block;
     margin-bottom: 5px;
