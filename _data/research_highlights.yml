@@ -1,13 +1,13 @@
-# Cards shown under “Research Highlight” on the homepage. Add more list items as needed.
-- title: "When Robots Should Say 'I Don't Know': Benchmarking Abstention in Embodied Question Answering"
-  title_url: "https://arxiv.org/abs/2512.04597"
-  authors: "Tao Wu, Chuhao Zhou, Guangyu Zhao, Haozhi Cao, Yewen Pu, Jianfei Yang"
-  venue_line: "CVPR 2026 · 23 Feb 2026 · arXiv:2512.04597"
-  excerpt: "First benchmark for evaluating abstention ability of embodied agents when facing ambiguous human queries."
-  paper_url: "https://arxiv.org/abs/2512.04597"
+# Placeholder card for layout preview. Replace with real papers when ready.
+- title: "Research highlight title (placeholder)"
+  title_url: ""
+  authors: "First Author, Second Author, Third Author"
+  venue_line: "Venue · Date · Identifier (TBD)"
+  excerpt: "One or two sentences describing the work will go here. Edit _data/research_highlights.yml to add your paper, links, tags, and teaser image."
+  paper_url: ""
   website_url: ""
-  image: /images/highlights/cvpr2026-abstention-teaser.svg
+  image: /images/highlights/teaser-placeholder.svg
   tags:
-    - embodied-qa
-    - abstention
-    - human-robot-interaction
+    - topic-a
+    - topic-b
+    - topic-c
