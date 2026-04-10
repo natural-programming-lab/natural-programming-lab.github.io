@@ -102,10 +102,12 @@ $(document).ready(function () {
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
 
-  // Enable the sticky footer
+  // Reserve bottom space when a styled footer exists (optional; layout may omit .page__footer)
   var bumpIt = function () {
     $("body").css("padding-bottom", "0");
-    $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
+    var $f = $(".page__footer");
+    var h = $f.length ? $f.outerHeight(true) : 0;
+    $("body").css("margin-bottom", h || 0);
   }
   $(window).resize(function () {
     didResize = true;
