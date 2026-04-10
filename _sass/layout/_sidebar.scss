@@ -25,7 +25,7 @@
   }
 
   @include breakpoint($large) {
-    @include span(3 of 12);
+    @include span(2 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -180,7 +180,7 @@
   img {
     display: block;
     width: 100%;
-    max-width: min(100%, #{$sidebar-link-max-width - 20px});
+    max-width: 220px;
     height: auto;
     border-radius: $border-radius;
     object-fit: contain;
@@ -363,7 +363,7 @@
 @media screen and (min-width: $sidebar-screen-min-width) {
   #main > .page,
   #main > .archive {
-    margin-left: span(3 of 12);
+    margin-left: span(2 of 12);
     /* Visible gutter beside fixed sidebar (prior small bumps were easy to miss on wide screens) */
     /* GitHub Pages / Sass 3.x: bare "rem + vw" inside clamp is parsed as Sass math — use calc() */
     padding-left: clamp(1.55rem, calc(1.1rem + 1.4vw), 3.65rem);
