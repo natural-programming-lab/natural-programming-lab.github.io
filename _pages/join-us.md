@@ -13,12 +13,7 @@ We welcome applications from:
 * Master students
 * Undergraduate researchers
 
-If you are interested in working with us, please send:
-
-* CV
-* Transcript (if available)
-* A brief statement of research interests
-
+If you are interested in working with us, please send CV, transcript (if available) and A brief statement of research interests
 to **[[your-email@domain.com](mailto:your-email@domain.com)]**.
 
 ---
