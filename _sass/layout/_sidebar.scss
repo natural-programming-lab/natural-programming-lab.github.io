@@ -40,7 +40,7 @@
 
   @include breakpoint($x-large) {
     max-width: $sidebar-link-max-width;
-    padding-right: 0;
+    padding-right: 1.25rem;
   }
 
   h2, h3, h4, h5, h6 {
@@ -334,6 +334,12 @@
 
   li {
     white-space: nowrap;
+
+    /* Sidebar bio lines (location, school, college) live in this ul; allow wrapping on desktop */
+    @include breakpoint($large) {
+      white-space: normal;
+      overflow-wrap: anywhere;
+    }
   }
 
   a {
@@ -349,5 +355,16 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+/* .sidebar is position:fixed from $sidebar-screen-min-width up, so it leaves the float
+   flow; reserve a full two-column track + gutter so .page / .archive do not paint over it */
+@media screen and (min-width: $sidebar-screen-min-width) {
+  #main > .page,
+  #main > .archive {
+    margin-left: span(2 of 12);
+    padding-left: 1.5rem;
+    box-sizing: border-box;
   }
 }
