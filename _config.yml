@@ -30,8 +30,8 @@ author:
   bio              : # "Short biography for the left-hand sidebar"
   location         : "Singapore"
   employer         : "Nanyang Technological University"
-  college          : "Your college or school (学院)"  # sidebar; icon: fa-school
-  college_uri      : # optional URL — if set, college name becomes a link
+  school          : "CCDS"  # sidebar; icon: fa-school
+  school_uri      : "https://www.ntu.edu.sg/computing"
   uri              : # URL
   email            : # omitted — hidden in sidebar
 
