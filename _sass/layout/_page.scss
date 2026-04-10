@@ -403,7 +403,7 @@
 /* Extra inset for title + body inside article when left sidebar is fixed */
 @media screen and (min-width: $sidebar-screen-min-width) {
   #main > .page .page__inner-wrap {
-    padding-left: clamp(1rem, 0.5rem + 1.5vw, 2.75rem);
+    padding-left: clamp(1.25rem, 0.75rem + 1.75vw, 3.25rem);
     box-sizing: border-box;
   }
 }
