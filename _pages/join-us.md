@@ -16,8 +16,6 @@ We welcome applications from:
 If you are interested in working with us, please send CV, transcript (if available) and A brief statement of research interests
 to **[[your-email@domain.com](mailto:your-email@domain.com)]**.
 
----
-
 ### 🤝 Collaborators
 
 We are open to collaborations with:
@@ -27,15 +25,11 @@ We are open to collaborations with:
 
 Feel free to reach out if you are interested in joint research, projects, or internships.
 
----
-
 ### 🌍 What we offer
 
 * A collaborative and supportive research environment
 * Opportunities to work on cutting-edge problems at the intersection of AI and programming
 * Co-authorship on publications and open-source projects
-
----
 
 ### 📌 Note
 
