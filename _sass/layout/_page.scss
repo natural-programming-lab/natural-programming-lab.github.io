@@ -495,4 +495,17 @@
     padding-left: clamp(0.3rem, calc(0.1rem + 0.8vw), 1.55rem);
     box-sizing: border-box;
   }
+
+  /*
+   * Sidebar is fixed with padding-top: $masthead-height so logo aligns under masthead.
+   * Drop #main top margin and the first h2's top margin so main headings line up with
+   * sidebar top instead of stacking ~4em of whitespace below the nav.
+   */
+  #main {
+    margin-top: 0;
+  }
+
+  #main > .page .page__content > h2:first-child {
+    margin-top: 0;
+  }
 }
