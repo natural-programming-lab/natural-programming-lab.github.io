@@ -164,6 +164,32 @@
   }
 }
 
+/* Lab / site logo (non-circular); keep within sidebar column (~250px max) */
+.author__avatar--brand {
+  display: block;
+  width: 100%;
+  vertical-align: top;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    border-radius: $border-radius;
+    object-fit: contain;
+
+    @include breakpoint($large) {
+      padding: 5px;
+      border: 1px solid var(--global-border-color);
+      border-radius: $border-radius;
+    }
+  }
+}
+
 .author__content {
   display: table-cell;
   vertical-align: top;

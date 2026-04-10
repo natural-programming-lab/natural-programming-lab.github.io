@@ -22,7 +22,9 @@ repository               : "natural-programming-lab/natural-programming-lab.gith
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  logo             : "NPL-logo.svg"   # wide logo in sidebar; omit to use circular avatar only
+  logo_alt         : "Natural Programming Lab"
+  avatar           : "profile.png"   # used when logo is blank
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
