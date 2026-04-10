@@ -7,7 +7,7 @@ author_profile: true
 ## Principal investigator
 
 <div class="people-member people-member--director" markdown="0">
-  <img class="people-member__photo" src="{{ '/images/people/yewen-pu.jpeg' | relative_url }}" alt="Yewen Pu" width="160" height="160" />
+  <img class="people-member__photo" src="{{ '/images/people/yewen-pu.jpeg' | relative_url }}" alt="Yewen Pu" width="200" height="200" />
   <div class="people-member__body">
     <p class="people-member__name"><strong>Yewen Pu</strong></p>
     <span class="people-member__badge">PI / Director</span>
