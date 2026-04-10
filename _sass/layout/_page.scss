@@ -669,7 +669,16 @@
     margin-top: 0;
   }
 
-  #main > .page .page__content > h2:first-of-type {
+  /*
+   * Content that starts with ## (e.g. People + hide_page_title): same top offset as h1.page__title
+   * so the first heading lines up with the sidebar logo band.
+   */
+  #main > .page .page__content > h2:first-child {
+    margin-top: 1.75rem;
+  }
+
+  /* First h2 after intro blocks: keep flush spacing (overrides global h2 top margin) */
+  #main > .page .page__content > h2:first-of-type:not(:first-child) {
     margin-top: 0;
   }
 
