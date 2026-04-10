@@ -335,10 +335,18 @@
   li {
     white-space: nowrap;
 
-    /* Sidebar bio lines (location, school, college) live in this ul; allow wrapping on desktop */
+    /* Sidebar bio lines (location, school) live in this ul; allow wrapping on desktop */
     @include breakpoint($large) {
       white-space: normal;
       overflow-wrap: anywhere;
+    }
+  }
+
+  /* College: keep on one line (overrides wrapping above) */
+  li.author__college {
+    @include breakpoint($large) {
+      white-space: nowrap;
+      overflow-wrap: normal;
     }
   }
 
@@ -366,7 +374,7 @@
     margin-left: span(2 of 12);
     /* Visible gutter beside fixed sidebar (prior small bumps were easy to miss on wide screens) */
     /* GitHub Pages / Sass 3.x: bare "rem + vw" inside clamp is parsed as Sass math — use calc() */
-    padding-left: clamp(1.65rem, calc(1.2rem + 1.5vw), 3.75rem);
+    padding-left: clamp(1.55rem, calc(1.1rem + 1.4vw), 3.65rem);
     box-sizing: border-box;
   }
 }

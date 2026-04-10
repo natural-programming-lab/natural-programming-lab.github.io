@@ -37,7 +37,7 @@
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
       {% endif %}
       {% if author.college %}
-        <li class="author__desktop">
+        <li class="author__desktop author__college">
           {% if author.college_uri %}
             <a href="{{ author.college_uri }}"><i class="fas fa-fw fa-school icon-pad-right" aria-hidden="true"></i>{{ author.college }}</a>
           {% else %}
