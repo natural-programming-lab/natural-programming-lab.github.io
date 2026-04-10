@@ -30,7 +30,7 @@ author:
   bio              : # "Short biography for the left-hand sidebar"
   location         : "Singapore"
   employer         : "Nanyang Technological University"
-  college          : "CCDS"  # sidebar; icon: fa-school
+  college          : "College of Computing and Data Science"  # sidebar; icon: fa-school
   college_uri      : "https://www.ntu.edu.sg/computing"
   uri              : # URL
   email            : # omitted — hidden in sidebar
