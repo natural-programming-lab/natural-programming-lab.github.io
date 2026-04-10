@@ -1,5 +1,7 @@
 ---
 permalink: /people/
+title: "People"
+hide_page_title: true
 author_profile: true
 ---
 
