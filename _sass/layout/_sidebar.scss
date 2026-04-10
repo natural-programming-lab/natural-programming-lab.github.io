@@ -365,7 +365,8 @@
   #main > .archive {
     margin-left: span(2 of 12);
     /* Visible gutter beside fixed sidebar (prior small bumps were easy to miss on wide screens) */
-    padding-left: clamp(3.25rem, 2.25rem + 3vw, 6.5rem);
+    /* GitHub Pages / Sass 3.x: bare "rem + vw" inside clamp is parsed as Sass math — use calc() */
+    padding-left: clamp(3.25rem, calc(2.25rem + 3vw), 6.5rem);
     box-sizing: border-box;
   }
 }
