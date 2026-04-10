@@ -1,3 +1,8 @@
+---
+permalink: /join-us/
+title: "Join Natural Programming Lab"
+author_profile: true
+---
 ## Join Natural Programming Lab
 
 We are always looking for motivated students and collaborators interested in **AI for programming, natural programming interfaces, and program synthesis**.
