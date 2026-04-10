@@ -29,6 +29,9 @@
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
+    /* Breathing room between sidebar block and main column (fixed sidebar) */
+    padding-right: 1.75rem;
+    box-sizing: border-box;
 
     &:hover {
       opacity: 1;
