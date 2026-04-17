@@ -35,4 +35,12 @@ author_profile: true
       <p>Research interests to be updated.</p>
     </div>
   </div>
+  <div class="people-member">
+    <img class="people-member__photo" src="{{ '/images/people/chengqi-zheng.jpg' | relative_url }}" alt="Chengqi Zheng" width="200" height="200" />
+    <div class="people-member__body">
+      <p class="people-member__name"><strong>Chengqi Zheng</strong></p>
+      <span class="people-member__badge">PhD student</span>
+      <p>Profile to be updated.</p>
+    </div>
+  </div>
 </div>

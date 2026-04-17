@@ -22,11 +22,3 @@ main:
 
   - title: "Projects"
     url: /projects/
-
-  - title: "Teaching"
-    url: /teaching/
-    persist: true
-
-  - title: "Join us"
-    url: /join-us/
-
