@@ -11,12 +11,12 @@
       {% if author.logo contains "://" %}
         <img src="{{ author.logo }}" alt="{{ author.logo_alt | default: author.name | escape }}" fetchpriority="high" />
       {% else %}
-        <img src="{{ author.logo | prepend: "/images/" | prepend: base_path }}" alt="{{ author.logo_alt | default: author.name | escape }}" fetchpriority="high" />
+        <img src="{{ author.logo | prepend: '/images/' | relative_url }}" alt="{{ author.logo_alt | default: author.name | escape }}" fetchpriority="high" />
       {% endif %}
     {% elsif author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}" fetchpriority="high" />
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" fetchpriority="high" />
+    	<img src="{{ author.avatar | prepend: '/images/' | relative_url }}" class="author__avatar" alt="{{ author.name }}" fetchpriority="high" />
     {% endif %}
   </div>
 

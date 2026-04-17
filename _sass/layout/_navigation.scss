@@ -181,6 +181,7 @@
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
+    line-height: 1.25;
     color: var(--global-masthead-link-color);
     text-decoration: none;
 
@@ -203,15 +204,25 @@
   }
 
   .visible-links {
-    display: table;
+    /*
+     * inline-flex shrink-wraps to link row width. Plain flex stretches to 100% of nav, so jQuery.greedy-navigation’s
+     * $vlinks.width() === full bar width and every item is moved into “≡” as if overflowing.
+     */
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
 
     li {
-      display: table-cell;
-      vertical-align: middle;
+      display: block;
+      flex: 0 0 auto;
+      list-style: none;
 
       &:first-child {
         font-weight: bold;
-        text-wrap: wrap;
+        /* Beat .masthead__menu-item { white-space: nowrap } so long site titles can wrap */
+        white-space: normal;
 
         a {
           margin-left: 0;
@@ -230,6 +241,7 @@
         width: 25px;
         display: flex;
         justify-content: center;
+        align-items: flex-start;
         cursor: pointer;
       }
     }

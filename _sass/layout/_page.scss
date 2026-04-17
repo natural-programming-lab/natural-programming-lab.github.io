@@ -105,6 +105,260 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+
+  /* People page: PI + member cards (.people-grid / .people-member) */
+  .people-grid {
+    display: grid;
+    gap: 1.5rem 2rem;
+    margin: 1.25rem 0 2rem;
+
+    @include breakpoint($medium) {
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+  }
+
+  .people-member {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--global-border-color);
+
+    @include breakpoint($medium) {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    &--director {
+      max-width: 48rem;
+      margin-bottom: 2rem;
+
+      .people-member__photo {
+        width: 200px;
+        height: 200px;
+      }
+    }
+
+    &__photo {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: $border-radius;
+      flex-shrink: 0;
+      border: 1px solid var(--global-border-color);
+    }
+
+    &__badge {
+      display: block;
+      margin: 0.15rem 0 0.35rem;
+      font-size: $type-size-6;
+      color: var(--global-text-color-light);
+      font-weight: 600;
+      letter-spacing: 0.03em;
+    }
+
+    &__body {
+      flex: 1;
+      min-width: 0;
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+
+      .people-member__name {
+        margin: 0;
+        font-size: $type-size-5;
+        font-family: $sans-serif-narrow;
+      }
+    }
+  }
+
+  .people-grid .people-member {
+    border-bottom: 0;
+    padding-bottom: 0;
+    flex-direction: column;
+
+    @include breakpoint($medium) {
+      flex-direction: column;
+    }
+
+    .people-member__photo {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      aspect-ratio: 1 / 1;
+    }
+  }
+
+  /* Research highlight cards (homepage, _data/research_highlights.yml) */
+  .research-highlight-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1rem 0 2rem;
+  }
+
+  .research-highlight-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 1.25rem 1.35rem;
+    border: 1px solid var(--global-border-color);
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    background-color: var(--global-bg-color);
+
+    @include breakpoint($medium) {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 1.5rem;
+    }
+
+    &__deco {
+      position: absolute;
+      top: 0.85rem;
+      right: 1rem;
+      font-size: 2.25rem;
+      line-height: 1;
+      color: var(--global-text-color);
+      opacity: 0.08;
+      pointer-events: none;
+    }
+
+    &__media {
+      flex: 0 0 auto;
+      width: 100%;
+      max-width: 12.5rem;
+
+      @include breakpoint($medium) {
+        width: 22%;
+        max-width: 200px;
+      }
+    }
+
+    &__media-link {
+      display: block;
+      border-radius: $border-radius;
+      overflow: hidden;
+      border: 1px solid var(--global-border-color);
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+      }
+    }
+
+    &__media-link--static {
+      cursor: default;
+    }
+
+    &__body {
+      flex: 1;
+      min-width: 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    &__title {
+      margin: 0 0 0.5rem;
+      font-size: $type-size-4;
+      font-family: $sans-serif-narrow;
+      line-height: 1.25;
+      padding-right: 2rem;
+
+      a {
+        color: var(--global-link-color);
+        text-decoration: underline;
+
+        &:hover {
+          color: var(--global-link-color-hover);
+        }
+      }
+    }
+
+    &__authors {
+      margin: 0 0 0.35rem;
+      color: var(--global-text-color);
+      font-size: 0.95em;
+    }
+
+    &__venue {
+      margin: 0 0 0.5rem;
+      color: var(--global-text-color-light);
+      font-size: $type-size-6;
+    }
+
+    &__excerpt {
+      margin: 0 0 0.85rem;
+      color: var(--global-text-color-light);
+      font-size: $type-size-6;
+      line-height: 1.5;
+    }
+
+    &__footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem 1rem;
+    }
+
+    &__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.1rem;
+    }
+
+    &__action {
+      font-size: $type-size-6;
+      font-weight: 600;
+      color: var(--global-link-color);
+      text-decoration: none;
+
+      i {
+        margin-right: 0.35em;
+      }
+
+      &:hover {
+        color: var(--global-link-color-hover);
+        text-decoration: underline;
+      }
+    }
+
+    &__tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    &__tag {
+      display: inline-block;
+      padding: 0.2em 0.55em;
+      font-size: $type-size-6;
+      font-weight: 600;
+      line-height: 1.35;
+      border-radius: 999px;
+      background-color: rgba(82, 173, 200, 0.16);
+      color: var(--global-text-color);
+      border: 1px solid rgba(82, 173, 200, 0.35);
+    }
+  }
+
+  html[data-theme="dark"] .research-highlight-card__tag {
+    background-color: rgba(82, 173, 200, 0.12);
+    border-color: rgba(82, 173, 200, 0.28);
+  }
 }
 
 .page__hero {
@@ -398,4 +652,43 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+/* Extra inset for title + body inside article when left sidebar is fixed */
+@media screen and (min-width: $sidebar-screen-min-width) {
+  #main > .page .page__inner-wrap {
+    padding-left: clamp(0.3rem, calc(0.1rem + 0.8vw), 1.55rem);
+    box-sizing: border-box;
+  }
+
+  /*
+   * Sidebar logo sits flush under masthead (padding-top = masthead). Main column should start
+   * at the same vertical offset so the first in-content heading lines up with the logo top.
+   */
+  #main {
+    margin-top: 0;
+  }
+
+  /*
+   * Content that starts with ## (e.g. People + hide_page_title): same top offset as h1.page__title
+   * so the first heading lines up with the sidebar logo band.
+   */
+  #main > .page .page__content > h2:first-child {
+    margin-top: 1.75rem;
+  }
+
+  /* First h2 after intro blocks: keep flush spacing (overrides global h2 top margin) */
+  #main > .page .page__content > h2:first-of-type:not(:first-child) {
+    margin-top: 0;
+  }
+
+  /* Layout h1 (e.g. homepage “About…”) sits flush under nav; nudge down to meet sidebar logo band */
+  #main > .page .page__inner-wrap > header h1.page__title {
+    margin-top: 1.75rem;
+  }
+
+  /* Archive layout (Publications, etc.): title is h1.page__title direct under .archive, not in article header */
+  #main > .archive > h1.page__title {
+    margin-top: 1.75rem;
+  }
 }

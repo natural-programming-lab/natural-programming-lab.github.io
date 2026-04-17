@@ -25,24 +25,25 @@ author:
   logo             : "NPL-logo.svg"   # wide logo in sidebar; omit to use circular avatar only
   logo_alt         : "Natural Programming Lab"
   avatar           : "profile.png"   # used when logo is blank
-  name             : "Your Sidebar Name"
+  name             : # "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : # "Short biography for the left-hand sidebar"
+  location         : "Singapore"
+  employer         : "Nanyang Technological University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "yewen.pu@ntu.edu.sg"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=LJnNKXMAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  # Full profile URL, e.g. https://orcid.org/0000-0001-2345-6789 — add when available
+  orcid            :
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # hidden in sidebar
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -52,13 +53,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : # hidden in sidebar
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # hidden in sidebar
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username

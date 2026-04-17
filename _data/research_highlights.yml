@@ -1,0 +1,13 @@
+# Placeholder card for layout preview. Replace with real papers when ready.
+- title: "Research highlight title (placeholder)"
+  title_url: ""
+  authors: "First Author, Second Author, Third Author"
+  venue_line: "Venue · Date · Identifier (TBD)"
+  excerpt: "One or two sentences describing the work will go here. Edit _data/research_highlights.yml to add your paper, links, tags, and teaser image."
+  paper_url: ""
+  website_url: ""
+  image: /images/highlights/teaser-placeholder.svg
+  tags:
+    - topic-a
+    - topic-b
+    - topic-c
