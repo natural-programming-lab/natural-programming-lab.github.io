@@ -394,11 +394,17 @@
     }
 
     &__body--about {
+      padding-left: 0.65rem;
+
+      @include breakpoint($medium) {
+        padding-left: 1.15rem;
+      }
+
       p {
         margin: 0 0 0.65em;
-        color: var(--global-text-color-light);
-        font-size: $type-size-6;
-        line-height: 1.45;
+        color: var(--global-text-color);
+        font-size: $type-size-5;
+        line-height: 1.5;
 
         &:last-child {
           margin-bottom: 0;
