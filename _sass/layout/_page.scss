@@ -371,6 +371,44 @@
       color: var(--global-text-color);
       border: 1px solid rgba(82, 173, 200, 0.35);
     }
+
+    &--plain {
+      border: 0;
+      box-shadow: none;
+      background: transparent;
+      padding-left: 0;
+      padding-right: 0;
+
+      .research-highlight-card__media-link {
+        border: 0;
+      }
+
+      .research-highlight-card__media-link--logo img {
+        object-fit: contain;
+        background: transparent;
+
+        @include breakpoint($medium) {
+          object-fit: contain;
+        }
+      }
+    }
+
+    &__body--about {
+      p {
+        margin: 0 0 0.65em;
+        color: var(--global-text-color-light);
+        font-size: $type-size-6;
+        line-height: 1.45;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .research-highlight-cards--about-intro {
+    margin-bottom: 1.25rem;
   }
 
   html[data-theme="dark"] .research-highlight-card__tag {

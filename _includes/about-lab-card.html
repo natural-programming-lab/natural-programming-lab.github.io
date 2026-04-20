@@ -1,0 +1,19 @@
+{% comment %}Homepage intro: logo + blurb, matches Research Highlight row layout without card border{% endcomment %}
+<div class="research-highlight-cards research-highlight-cards--about-intro">
+  <article class="research-highlight-card research-highlight-card--plain">
+    <div class="research-highlight-card__media">
+      <span class="research-highlight-card__media-link research-highlight-card__media-link--static research-highlight-card__media-link--logo">
+        <img
+          src="{{ '/images/NPL-logo.svg' | relative_url }}"
+          alt="{{ site.author.logo_alt | default: 'Natural Programming Lab' | escape }}"
+          loading="eager"
+          width="220"
+          height="168" />
+      </span>
+    </div>
+    <div class="research-highlight-card__body research-highlight-card__body--about">
+      <p>Natural Programming Lab (NPL) is led by Prof. Yewen Pu at Nanyang Technological University.</p>
+      <p>NPL studies how to bridge the gap between today’s agentic systems and true human collaborators. While modern LLMs excel at tasks with clear objectives and feedback, many real-world problems require alignment through interaction. Our work focuses on communication-driven intelligence—such as iterative repair, convention formation, and the development of shared mental models—and builds interactive systems that are both natural to instruct and reliable in execution.</p>
+    </div>
+  </article>
+</div>
