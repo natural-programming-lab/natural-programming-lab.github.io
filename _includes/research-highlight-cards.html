@@ -3,7 +3,7 @@
 <div class="research-highlight-cards">
   {% for item in highlights %}
   {% assign link_href = item.title_url | default: item.paper_url %}
-  <article class="research-highlight-card{% if item.narrow_media %} research-highlight-card--narrow-media{% endif %}">
+  <article class="research-highlight-card">
     <span class="research-highlight-card__deco" aria-hidden="true"><i class="fas fa-scroll"></i></span>
     <div class="research-highlight-card__media">
       {% if link_href and link_href != '' %}
