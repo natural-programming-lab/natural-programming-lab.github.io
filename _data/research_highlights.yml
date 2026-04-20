@@ -2,7 +2,7 @@
 - title: "mrCAD: Multimodal Refinement of Computer-aided Designs"
   title_url: "https://arxiv.org/abs/2504.20294"
   authors: "William P. McCarthy, Saujas Vaduguru, Karl D. D. Willis, Justin Matejka, Judith E. Fan, Daniel Fried, Yewen Pu"
-  venue_line: "arXiv:2504.20294 · cs.AI · Apr 2025"
+  venue_line: "EMNLP 2025"
   excerpt: "A dataset of multimodal instructions for iteratively refining computer-aided designs (CADs): designers instruct makers using text, drawing, or both across thousands of human games—highlighting how refinement differs from generation and benchmarking VLMs on instruction following."
   paper_url: "https://arxiv.org/abs/2504.20294"
   website_url: ""
@@ -20,6 +20,7 @@
   paper_url: "https://arxiv.org/abs/2512.04597"
   website_url: ""
   image: /images/highlights/abstain-eqa.png
+  narrow_media: true
   tags:
     - embodied-qa
     - abstention
