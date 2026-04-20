@@ -14,3 +14,5 @@ redirect_from:
 {% include research-highlight-cards.html %}
 
 ## News
+
+- April 2026: Our paper (_When Robots should say I don't know_) is selected as a CVPR highlight paper
