@@ -399,11 +399,14 @@
     }
 
     &__body--about {
+      text-align: justify;
+      hyphens: auto;
+
       p {
         margin: 0 0 0.65em;
         color: var(--global-text-color);
-        font-size: $type-size-5;
-        line-height: 1.5;
+        font-size: $type-size-4;
+        line-height: 1.55;
 
         &:last-child {
           margin-bottom: 0;
