@@ -196,7 +196,7 @@
   .research-highlight-cards {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
     margin: 1rem 0 2rem;
   }
 
@@ -204,8 +204,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
-    padding: 1.25rem 1.35rem;
+    gap: 0.85rem;
+    padding: 0.85rem 1rem;
     border: 1px solid var(--global-border-color);
     border-radius: $border-radius;
     box-shadow: $box-shadow;
@@ -213,15 +213,15 @@
 
     @include breakpoint($medium) {
       flex-direction: row;
-      align-items: stretch;
-      gap: 1.5rem;
+      align-items: center;
+      gap: 1.1rem;
     }
 
     &__deco {
       position: absolute;
-      top: 0.85rem;
-      right: 1rem;
-      font-size: 2.25rem;
+      top: 0.55rem;
+      right: 0.75rem;
+      font-size: 1.85rem;
       line-height: 1;
       color: var(--global-text-color);
       opacity: 0.08;
@@ -231,17 +231,16 @@
     &__media {
       flex: 0 0 auto;
       width: 100%;
-      max-width: 12.5rem;
+      max-width: 11rem;
 
       @include breakpoint($medium) {
         display: flex;
         flex-direction: column;
-        align-self: stretch;
-        /* Fixed column so every highlight card lines up (image + text start align) */
-        flex: 0 0 280px;
-        width: 280px;
-        max-width: 280px;
-        min-width: 280px;
+        align-self: center;
+        flex: 0 0 220px;
+        width: 220px;
+        max-width: 220px;
+        min-width: 220px;
       }
     }
 
@@ -252,11 +251,9 @@
       border: 1px solid var(--global-border-color);
 
       @include breakpoint($medium) {
-        flex: 1 1 auto;
-        display: flex;
-        flex-direction: column;
-        min-height: 0;
-        height: 100%;
+        display: block;
+        height: auto;
+        max-height: 168px;
       }
 
       img {
@@ -267,10 +264,9 @@
         object-fit: cover;
 
         @include breakpoint($medium) {
-          flex: 1 1 auto;
           width: 100%;
-          height: 100%;
-          min-height: 0;
+          height: 168px;
+          max-height: 168px;
           aspect-ratio: unset;
           object-fit: cover;
           object-position: center;
@@ -290,11 +286,11 @@
     }
 
     &__title {
-      margin: 0 0 0.5rem;
-      font-size: $type-size-4;
+      margin: 0 0 0.35rem;
+      font-size: $type-size-5;
       font-family: $sans-serif-narrow;
-      line-height: 1.25;
-      padding-right: 2rem;
+      line-height: 1.3;
+      padding-right: 1.75rem;
 
       a {
         color: var(--global-link-color);
@@ -307,39 +303,40 @@
     }
 
     &__authors {
-      margin: 0 0 0.35rem;
+      margin: 0 0 0.25rem;
       color: var(--global-text-color);
-      font-size: 0.95em;
+      font-size: $type-size-6;
+      line-height: 1.35;
     }
 
     &__venue {
-      margin: 0 0 0.5rem;
+      margin: 0 0 0.35rem;
       color: var(--global-text-color-light);
-      font-size: $type-size-6;
+      font-size: $type-size-7;
     }
 
     &__excerpt {
-      margin: 0 0 0.85rem;
+      margin: 0 0 0.5rem;
       color: var(--global-text-color-light);
       font-size: $type-size-6;
-      line-height: 1.5;
+      line-height: 1.45;
     }
 
     &__footer {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      gap: 0.75rem 1rem;
+      gap: 0.45rem 0.75rem;
     }
 
     &__links {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.75rem 1.1rem;
+      gap: 0.5rem 0.85rem;
     }
 
     &__action {
-      font-size: $type-size-6;
+      font-size: $type-size-7;
       font-weight: 600;
       color: var(--global-link-color);
       text-decoration: none;
@@ -365,10 +362,10 @@
 
     &__tag {
       display: inline-block;
-      padding: 0.2em 0.55em;
-      font-size: $type-size-6;
+      padding: 0.15em 0.45em;
+      font-size: $type-size-7;
       font-weight: 600;
-      line-height: 1.35;
+      line-height: 1.3;
       border-radius: 999px;
       background-color: rgba(82, 173, 200, 0.16);
       color: var(--global-text-color);
