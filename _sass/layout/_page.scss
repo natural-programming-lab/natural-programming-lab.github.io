@@ -17,9 +17,7 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    @include full();
   }
 
   .page__inner-wrap {
@@ -659,10 +657,6 @@
   @include clearfix();
   float: left;
 
-  @include breakpoint($large) {
-    @include pre(2.5 of 12);
-  }
-
   a {
     color: inherit;
     text-decoration: none;
@@ -675,41 +669,3 @@
   text-transform: uppercase;
 }
 
-/* Extra inset for title + body inside article when left sidebar is fixed */
-@media screen and (min-width: $sidebar-screen-min-width) {
-  #main > .page .page__inner-wrap {
-    padding-left: clamp(0.3rem, calc(0.1rem + 0.8vw), 1.55rem);
-    box-sizing: border-box;
-  }
-
-  /*
-   * Sidebar logo sits flush under masthead (padding-top = masthead). Main column should start
-   * at the same vertical offset so the first in-content heading lines up with the logo top.
-   */
-  #main {
-    margin-top: 0;
-  }
-
-  /*
-   * Content that starts with ## (e.g. People + hide_page_title): same top offset as h1.page__title
-   * so the first heading lines up with the sidebar logo band.
-   */
-  #main > .page .page__content > h2:first-child {
-    margin-top: 1.75rem;
-  }
-
-  /* First h2 after intro blocks: keep flush spacing (overrides global h2 top margin) */
-  #main > .page .page__content > h2:first-of-type:not(:first-child) {
-    margin-top: 0;
-  }
-
-  /* Layout h1 (e.g. homepage “About…”) sits flush under nav; nudge down to meet sidebar logo band */
-  #main > .page .page__inner-wrap > header h1.page__title {
-    margin-top: 1.75rem;
-  }
-
-  /* Archive layout (Publications, etc.): title is h1.page__title direct under .archive, not in article header */
-  #main > .archive > h1.page__title {
-    margin-top: 1.75rem;
-  }
-}
