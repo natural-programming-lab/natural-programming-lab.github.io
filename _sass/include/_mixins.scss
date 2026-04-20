@@ -52,16 +52,13 @@
   }
 }
 
-/*
-   Wider main column than default Susy container (925px), aligned across masthead / #main / footer
-   ========================================================================== */
-
+/* Centered column cap for masthead / #main / footer (overrides Susy 925px). */
 @mixin layout-max-width {
   @include breakpoint($large) {
-    max-width: $content-max-width-lg;
+    max-width: $content-max-width;
   }
 
   @include breakpoint($x-large) {
-    max-width: $content-max-width-xl;
+    max-width: $content-max-width;
   }
 }
