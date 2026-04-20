@@ -40,6 +40,11 @@
   }
 }
 
+/* Homepage: match main heading size to section headings (e.g. Research Highlight) */
+.page--home .page__title {
+  font-size: $type-size-4;
+}
+
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
@@ -376,16 +381,8 @@
       border: 0;
       box-shadow: none;
       background: transparent;
-      padding-left: 0;
-      padding-right: 0;
-
-      .research-highlight-card__media {
-        margin-left: 0.85rem;
-
-        @include breakpoint($medium) {
-          margin-left: 1.35rem;
-        }
-      }
+      /* Same horizontal inset as bordered .research-highlight-card (1rem) so text aligns */
+      padding: 0 1rem;
 
       .research-highlight-card__media-link {
         border: 0;
@@ -402,12 +399,6 @@
     }
 
     &__body--about {
-      padding-left: 0.65rem;
-
-      @include breakpoint($medium) {
-        padding-left: 1.15rem;
-      }
-
       p {
         margin: 0 0 0.65em;
         color: var(--global-text-color);
