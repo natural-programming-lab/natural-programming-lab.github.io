@@ -362,15 +362,3 @@
   }
 }
 
-/* .sidebar is position:fixed from $sidebar-screen-min-width up, so it leaves the float
-   flow; reserve a full two-column track + gutter so .page / .archive do not paint over it */
-@media screen and (min-width: $sidebar-screen-min-width) {
-  #main > .page,
-  #main > .archive {
-    margin-left: span(2 of 12);
-    /* Visible gutter beside fixed sidebar (prior small bumps were easy to miss on wide screens) */
-    /* GitHub Pages / Sass 3.x: bare "rem + vw" inside clamp is parsed as Sass math — use calc() */
-    padding-left: clamp(1.55rem, calc(1.1rem + 1.4vw), 3.65rem);
-    box-sizing: border-box;
-  }
-}
