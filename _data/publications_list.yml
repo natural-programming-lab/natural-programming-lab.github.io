@@ -1,4 +1,4 @@
-# Homepage Research Highlight only (_includes/research-highlight-cards.html). Not used on /publications/ — see publications_list.yml.
+# Publication cards on /publications/ (_includes/publication-cards.html) — independent from research_highlights.yml
 - title: "mrCAD: Multimodal Refinement of Computer-aided Designs"
   title_url: "https://arxiv.org/abs/2504.20294"
   authors: "William P. McCarthy, Saujas Vaduguru, Karl D. D. Willis, Justin Matejka, Judith E. Fan, Daniel Fried, Yewen Pu"
@@ -11,6 +11,20 @@
     - cad
     - multimodal
     - human-ai-collaboration
+
+- title: "When Robots Should Say \"I Don't Know\": Benchmarking Abstention in Embodied Question Answering"
+  title_url: "https://arxiv.org/abs/2512.04597"
+  authors: "Tao Wu, Chuhao Zhou, Guangyu Zhao, Haozhi Cao, Yewen Pu, Jianfei Yang"
+  venue_line: "CVPR 2026 (Highlight)"
+  excerpt: "AbstainEQA pairs abstention cases with OpenEQA; frontier models still trail humans on knowing when to abstain."
+  paper_url: "https://arxiv.org/abs/2512.04597"
+  website_url: ""
+  image: /images/highlights/abstain-eqa.png
+  tags:
+    - embodied-qa
+    - abstention
+    - robotics
+    - eqa
 
 - title: "Bongards at the Boundary of Perception and Reasoning: Programs or Language?"
   title_url: "https://arxiv.org/pdf/2602.03038"
