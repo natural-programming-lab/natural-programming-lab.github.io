@@ -49,11 +49,11 @@ author_profile: true
 
 <div class="people-grid" markdown="0">
   <div class="people-member">
-    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Placeholder" width="200" height="200" />
+    <img class="people-member__photo" src="{{ '/images/people/abhipray-chavan.png' | relative_url }}" alt="Abhipray Chavan" width="200" height="200" />
     <div class="people-member__body">
-      <p class="people-member__name"><strong>Master student 1 (placeholder)</strong></p>
+      <p class="people-member__name"><strong>Abhipray Chavan</strong></p>
       <span class="people-member__badge">Master student</span>
-      <p>Profile and photo to be added.</p>
+      <p>Profile to be updated.</p>
     </div>
   </div>
   <div class="people-member">
@@ -70,11 +70,11 @@ author_profile: true
 
 <div class="people-grid" markdown="0">
   <div class="people-member">
-    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Placeholder" width="200" height="200" />
+    <img class="people-member__photo" src="{{ '/images/people/rajvir.jpg' | relative_url }}" alt="Rajvir" width="200" height="200" />
     <div class="people-member__body">
-      <p class="people-member__name"><strong>Undergraduate student 1 (placeholder)</strong></p>
+      <p class="people-member__name"><strong>Rajvir</strong></p>
       <span class="people-member__badge">Undergraduate student</span>
-      <p>Profile and photo to be added.</p>
+      <p>Profile to be updated.</p>
     </div>
   </div>
   <div class="people-member">
