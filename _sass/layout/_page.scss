@@ -12,6 +12,7 @@
   animation-delay: 0.35s;
 
   @include layout-max-width;
+  position: relative;
 }
 
 .page {
