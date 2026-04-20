@@ -172,9 +172,6 @@
 
 .greedy-nav {
   position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
   min-width: 250px;
   background: var(--global-bg-color);
 
@@ -188,10 +185,6 @@
 
     &:hover {
       color: var(--global-masthead-link-color-hover);
-    }
-
-    @include breakpoint($large) {
-      margin: 0 0.35rem;
     }
   }
 
@@ -210,24 +203,14 @@
 
   .visible-links {
     /*
-     * Narrow: inline-flex so content width matches items (greedy overflow). Wide: full-width flex + space-between
-     * for even distribution; overflow uses scrollWidth in jquery.greedy-navigation.js.
+     * inline-flex shrink-wraps to link row width. Plain flex stretches to 100% of nav, so jQuery.greedy-navigation’s
+     * $vlinks.width() === full bar width and every item is moved into “≡” as if overflowing.
      */
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
-    gap: 0.35rem;
-
-    @include breakpoint($large) {
-      flex: 1;
-      min-width: 0;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      gap: clamp(1rem, 3.5vw, 2.75rem);
-    }
 
     li {
       display: block;
