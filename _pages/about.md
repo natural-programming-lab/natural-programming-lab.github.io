@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Natural Programming Lab"
+title: "Natural Programming Lab"
 author_profile: false
 redirect_from: 
   - /about/
