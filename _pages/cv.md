@@ -43,9 +43,11 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul>
+{% for item in site.data.research_highlights %}
+  <li>{{ item.title }}{% if item.venue_line %} — <i>{{ item.venue_line }}</i>{% endif %}{% if item.paper_url %} (<a href="{{ item.paper_url }}">paper</a>){% endif %}</li>
+{% endfor %}
+</ul>
   
 Talks
 ======
