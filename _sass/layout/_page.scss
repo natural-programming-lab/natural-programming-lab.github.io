@@ -6,8 +6,8 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: $page-edge-inset;
+  padding-right: $page-edge-inset;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -404,8 +404,8 @@
     }
 
     .wrapper {
-      padding-left: 1em;
-      padding-right: 1em;
+      padding-left: $page-edge-inset;
+      padding-right: $page-edge-inset;
 
       @include layout-max-width;
     }
