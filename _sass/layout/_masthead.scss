@@ -27,6 +27,9 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
     padding: 0.5em $page-edge-inset;
     font-family: $sans-serif-narrow;
 
@@ -43,6 +46,9 @@
 }
 
 .masthead__menu {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
 
   ul {
     margin: 0;
@@ -61,6 +67,10 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+
+    @include breakpoint($large) {
+      padding-right: 0;
+    }
   }
 }
 
