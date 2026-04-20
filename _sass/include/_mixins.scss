@@ -58,10 +58,10 @@
 
 @mixin layout-max-width {
   @include breakpoint($large) {
-    max-width: min(100%, $content-max-width-lg);
+    max-width: $content-max-width-lg;
   }
 
   @include breakpoint($x-large) {
-    max-width: min(100%, $content-max-width-xl);
+    max-width: $content-max-width-xl;
   }
 }
