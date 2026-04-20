@@ -59,6 +59,9 @@ $x-large                    : 1280px !default;
 $content-max-width-lg       : 1280px !default;
 $content-max-width-xl       : 1400px !default;
 
+/* Horizontal inset from the viewport edge for masthead, #main, footer, fixed sidebar */
+$page-edge-inset            : 1em !default;
+
 /* ==========================================================================
    Grid
    ========================================================================== */
