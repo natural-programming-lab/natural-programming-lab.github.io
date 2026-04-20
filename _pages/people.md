@@ -20,11 +20,11 @@ author_profile: true
 
 <div class="people-grid" markdown="0">
   <div class="people-member">
-    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Shuzhi Liu" width="200" height="200" />
+    <img class="people-member__photo" src="{{ '/images/people/shuzhi-liu.png' | relative_url }}" alt="Shuzhi Liu" width="200" height="200" />
     <div class="people-member__body">
       <p class="people-member__name"><strong>Shuzhi Liu</strong></p>
       <span class="people-member__badge">PhD student</span>
-      <p>Profile and photo will be added soon.</p>
+      <p>Profile to be updated.</p>
     </div>
   </div>
   <div class="people-member">
@@ -41,6 +41,48 @@ author_profile: true
       <p class="people-member__name"><strong>Chengqi Zheng</strong></p>
       <span class="people-member__badge">PhD student</span>
       <p>Profile to be updated.</p>
+    </div>
+  </div>
+</div>
+
+## Master Students
+
+<div class="people-grid" markdown="0">
+  <div class="people-member">
+    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Placeholder" width="200" height="200" />
+    <div class="people-member__body">
+      <p class="people-member__name"><strong>Master student 1 (placeholder)</strong></p>
+      <span class="people-member__badge">Master student</span>
+      <p>Profile and photo to be added.</p>
+    </div>
+  </div>
+  <div class="people-member">
+    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Placeholder" width="200" height="200" />
+    <div class="people-member__body">
+      <p class="people-member__name"><strong>Master student 2 (placeholder)</strong></p>
+      <span class="people-member__badge">Master student</span>
+      <p>Profile and photo to be added.</p>
+    </div>
+  </div>
+</div>
+
+## Undergraduate Students
+
+<div class="people-grid" markdown="0">
+  <div class="people-member">
+    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Placeholder" width="200" height="200" />
+    <div class="people-member__body">
+      <p class="people-member__name"><strong>Undergraduate student 1 (placeholder)</strong></p>
+      <span class="people-member__badge">Undergraduate student</span>
+      <p>Profile and photo to be added.</p>
+    </div>
+  </div>
+  <div class="people-member">
+    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Placeholder" width="200" height="200" />
+    <div class="people-member__body">
+      <p class="people-member__name"><strong>Undergraduate student 2 (placeholder)</strong></p>
+      <span class="people-member__badge">Undergraduate student</span>
+      <p>Profile and photo to be added.</p>
     </div>
   </div>
 </div>
