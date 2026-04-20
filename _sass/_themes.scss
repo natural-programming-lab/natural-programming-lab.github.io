@@ -55,6 +55,10 @@ $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
 
+/* Max width of the centered content column (wider than legacy $x-large px value) */
+$content-max-width-lg       : 1280px !default;
+$content-max-width-xl       : 1400px !default;
+
 /* ==========================================================================
    Grid
    ========================================================================== */

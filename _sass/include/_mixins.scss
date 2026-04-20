@@ -51,3 +51,17 @@
     display: table;
   }
 }
+
+/*
+   Wider main column than default Susy container (925px), aligned across masthead / #main / footer
+   ========================================================================== */
+
+@mixin layout-max-width {
+  @include breakpoint($large) {
+    max-width: min(100%, $content-max-width-lg);
+  }
+
+  @include breakpoint($x-large) {
+    max-width: min(100%, $content-max-width-xl);
+  }
+}
