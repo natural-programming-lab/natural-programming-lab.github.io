@@ -1,13 +1,13 @@
-# Placeholder card for layout preview. Replace with real papers when ready.
-- title: "Research highlight title (placeholder)"
-  title_url: ""
-  authors: "First Author, Second Author, Third Author"
-  venue_line: "Venue · Date · Identifier (TBD)"
-  excerpt: "One or two sentences describing the work will go here. Edit _data/research_highlights.yml to add your paper, links, tags, and teaser image."
-  paper_url: ""
+# Research Highlight cards on the homepage (_includes/research-highlight-cards.html)
+- title: "mrCAD: Multimodal Refinement of Computer-aided Designs"
+  title_url: "https://arxiv.org/abs/2504.20294"
+  authors: "William P. McCarthy, Saujas Vaduguru, Karl D. D. Willis, Justin Matejka, Judith E. Fan, Daniel Fried, Yewen Pu"
+  venue_line: "arXiv:2504.20294 · cs.AI · Apr 2025"
+  excerpt: "A dataset of multimodal instructions for iteratively refining computer-aided designs (CADs): designers instruct makers using text, drawing, or both across thousands of human games—highlighting how refinement differs from generation and benchmarking VLMs on instruction following."
+  paper_url: "https://arxiv.org/abs/2504.20294"
   website_url: ""
-  image: /images/highlights/teaser-placeholder.svg
+  image: /images/highlights/mrcad-teaser.png
   tags:
-    - topic-a
-    - topic-b
-    - topic-c
+    - cad
+    - multimodal
+    - human-ai-collaboration
