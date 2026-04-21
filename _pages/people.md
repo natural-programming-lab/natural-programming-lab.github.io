@@ -24,7 +24,7 @@ author_profile: true
     <div class="people-member__body">
       <p class="people-member__name"><strong>Shuzhi Liu</strong></p>
       <span class="people-member__badge">PhD student</span>
-      <p>Profile to be updated.</p>
+      <p>Collaboration between humans and LLMs, especially the construction of world models</p>
     </div>
   </div>
   <div class="people-member">
@@ -32,7 +32,7 @@ author_profile: true
     <div class="people-member__body">
       <p class="people-member__name"><strong>Tao Wu</strong></p>
       <span class="people-member__badge">PhD student</span>
-      <p>Research interests to be updated.</p>
+      <p>Human Agent/Robot Interaction</p>
     </div>
   </div>
   <div class="people-member">
@@ -40,7 +40,7 @@ author_profile: true
     <div class="people-member__body">
       <p class="people-member__name"><strong>Chengqi Zheng</strong></p>
       <span class="people-member__badge">PhD student</span>
-      <p>Profile to be updated.</p>
+      <p>Agentic AI, Reinforcement Learning, Bayesian Inference</p>
     </div>
   </div>
 </div>
