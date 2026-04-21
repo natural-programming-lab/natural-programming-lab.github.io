@@ -40,7 +40,7 @@ author_profile: true
     <div class="people-member__body">
       <p class="people-member__name"><strong>Chengqi Zheng</strong></p>
       <span class="people-member__badge">PhD student</span>
-      <p>Agentic AI, Reinforcement Learning, Bayesian Inference</p>
+      <p>Agentic AI, Reinforcement Learning</p>
     </div>
   </div>
 </div>
