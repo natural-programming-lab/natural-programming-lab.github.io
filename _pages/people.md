@@ -78,11 +78,11 @@ author_profile: true
     </div>
   </div>
   <div class="people-member">
-    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Placeholder" width="200" height="200" />
+    <img class="people-member__photo" src="{{ '/images/people/hanxuan-ju.jpg' | relative_url }}" alt="Hanxuan Ju" width="200" height="200" />
     <div class="people-member__body">
-      <p class="people-member__name"><strong>Undergraduate student 2 (placeholder)</strong></p>
+      <p class="people-member__name"><strong>Hanxuan Ju</strong></p>
       <span class="people-member__badge">Undergraduate student</span>
-      <p>Profile and photo to be added.</p>
+      <p>Profile to be updated.</p>
     </div>
   </div>
 </div>
