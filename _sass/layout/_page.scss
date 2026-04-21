@@ -176,6 +176,16 @@
         margin: 0;
         font-size: $type-size-5;
         font-family: $sans-serif-narrow;
+
+        a {
+          color: inherit;
+          text-decoration: none;
+
+          &:hover {
+            color: var(--global-link-color);
+            text-decoration: underline;
+          }
+        }
       }
     }
   }

@@ -10,7 +10,7 @@ author_profile: true
 <div class="people-member people-member--director" markdown="0">
   <img class="people-member__photo" src="{{ '/images/people/yewen-pu.jpeg' | relative_url }}" alt="Yewen Pu" width="200" height="200" />
   <div class="people-member__body">
-    <p class="people-member__name"><strong>Yewen Pu</strong></p>
+    <p class="people-member__name"><strong><a href="https://evanthebouncy.github.io/" target="_blank" rel="noopener noreferrer">Yewen Pu</a></strong></p>
     <span class="people-member__badge">PI / Director</span>
     <p>Yewen leads the Natural Programming Lab at Nanyang Technological University, Singapore. The group studies AI for programming, natural programming interfaces, and program synthesis—building systems that are natural to instruct and reliable in execution.</p>
   </div>
@@ -24,13 +24,13 @@ author_profile: true
     <div class="people-member__body">
       <p class="people-member__name"><strong>Shuzhi Liu</strong></p>
       <span class="people-member__badge">PhD student</span>
-      <p>Collaboration between humans and LLMs, especially the construction of world models</p>
+      <p>Collaboration between humans and LLMs</p>
     </div>
   </div>
   <div class="people-member">
     <img class="people-member__photo" src="{{ '/images/people/tao-wu.jpg' | relative_url }}" alt="Tao Wu" width="200" height="200" />
     <div class="people-member__body">
-      <p class="people-member__name"><strong>Tao Wu</strong></p>
+      <p class="people-member__name"><strong><a href="https://gibrantaowu.github.io/homepage/" target="_blank" rel="noopener noreferrer">Tao Wu</a></strong></p>
       <span class="people-member__badge">PhD student</span>
       <p>Human Agent/Robot Interaction</p>
     </div>
