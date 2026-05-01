@@ -39,3 +39,17 @@
     - vlm
     - neurosymbolic
     - reasoning
+
+- title: "Code Driven Planning with Domain-Adaptive Critic"
+  title_url: "https://arxiv.org/abs/2509.19077"
+  authors: "Zikang Tian, Shaohui Peng, Du Huang, Jiaming Guo, Ruizhi Chen, Rui Zhang, Xishan Zhang, Yuxuan Guo, Zidong Du, Qi Guo, Ling Li, Yewen Pu, Xing Hu, Yunji Chen"
+  venue_line: "ICLR 2026"
+  excerpt: "CoPiC uses LLM-generated planning programs to propose and refine plans and a trained domain-adaptive critic to pick candidates aligned with long-term rewards—stronger success with far fewer LLM queries (ALFWorld, NetHack, StarCraft II)."
+  paper_url: "https://arxiv.org/abs/2509.19077"
+  website_url: ""
+  image: /images/highlights/copic-teaser.png
+  tags:
+    - planning
+    - llm-agents
+    - critic
+    - sequential-decision-making
