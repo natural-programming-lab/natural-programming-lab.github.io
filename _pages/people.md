@@ -56,14 +56,6 @@ author_profile: true
       <p>Profile to be updated.</p>
     </div>
   </div>
-  <div class="people-member">
-    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Placeholder" width="200" height="200" />
-    <div class="people-member__body">
-      <p class="people-member__name"><strong>Master student 2 (placeholder)</strong></p>
-      <span class="people-member__badge">Master student</span>
-      <p>Profile and photo to be added.</p>
-    </div>
-  </div>
 </div>
 
 ## Undergraduate Students
