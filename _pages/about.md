@@ -1,17 +1,19 @@
 ---
 permalink: /
-title: "About Natural Programming Lab"
-author_profile: true
+title: "Natural Programming Lab"
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
-Natural Programming Lab (NPL) is led by Prof. Yewen Pu at Nanyang Technological University.
 
-NPL studys how to bridge the gap between today’s agentic systems and true human collaborators. While modern LLMs excel at tasks with clear objectives and feedback, many real-world problems require alignment through interaction. Our work focuses on communication-driven intelligence—such as iterative repair, convention formation, and the development of shared mental models—and builds interactive systems that are both natural to instruct and reliable in execution.
+{% include about-lab-card.html %}
 
 ## Research Highlight
 
 {% include research-highlight-cards.html %}
 
 ## News
+
+- April 2026: Our paper (_When Robots should say I don't know_) is selected as a CVPR highlight paper
+- April 2026: one paper (_Bongards at the Boundary of Perception and Reasoning: Programs or Language_) is accepted by CogSci

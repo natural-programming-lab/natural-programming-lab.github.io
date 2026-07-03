@@ -40,6 +40,11 @@
   }
 }
 
+/* Homepage: match main heading size to section headings (e.g. Research Highlight) */
+.page--home .page__title {
+  font-size: $type-size-4;
+}
+
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
@@ -171,6 +176,16 @@
         margin: 0;
         font-size: $type-size-5;
         font-family: $sans-serif-narrow;
+
+        a {
+          color: inherit;
+          text-decoration: none;
+
+          &:hover {
+            color: var(--global-link-color);
+            text-decoration: underline;
+          }
+        }
       }
     }
   }
@@ -179,6 +194,7 @@
     border-bottom: 0;
     padding-bottom: 0;
     flex-direction: column;
+    align-items: flex-start;
 
     @include breakpoint($medium) {
       flex-direction: column;
@@ -189,6 +205,12 @@
       max-width: 200px;
       height: auto;
       aspect-ratio: 1 / 1;
+    }
+
+    .people-member__body {
+      max-width: 200px;
+      width: 100%;
+      overflow-wrap: break-word;
     }
   }
 
@@ -206,7 +228,7 @@
     flex-direction: column;
     gap: 0.85rem;
     padding: 0.85rem 1rem;
-    border: 1px solid var(--global-border-color);
+    border: 2px solid var(--global-border-color);
     border-radius: $border-radius;
     box-shadow: $box-shadow;
     background-color: var(--global-bg-color);
@@ -371,6 +393,47 @@
       color: var(--global-text-color);
       border: 1px solid rgba(82, 173, 200, 0.35);
     }
+
+    &--plain {
+      border: 0;
+      box-shadow: none;
+      background: transparent;
+      /* Same horizontal inset as bordered .research-highlight-card (1rem) so text aligns */
+      padding: 0 1rem;
+
+      .research-highlight-card__media-link {
+        border: 0;
+      }
+
+      .research-highlight-card__media-link--logo img {
+        object-fit: contain;
+        background: transparent;
+
+        @include breakpoint($medium) {
+          object-fit: contain;
+        }
+      }
+    }
+
+    &__body--about {
+      text-align: justify;
+      hyphens: auto;
+
+      p {
+        margin: 0 0 0.65em;
+        color: var(--global-text-color);
+        font-size: $type-size-5;
+        line-height: 1.5;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .research-highlight-cards--about-intro {
+    margin-bottom: 1.25rem;
   }
 
   html[data-theme="dark"] .research-highlight-card__tag {

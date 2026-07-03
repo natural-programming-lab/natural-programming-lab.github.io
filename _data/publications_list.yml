@@ -1,0 +1,55 @@
+# Publication cards on /publications/ (_includes/publication-cards.html) — independent from research_highlights.yml
+- title: "mrCAD: Multimodal Refinement of Computer-aided Designs"
+  title_url: "https://arxiv.org/abs/2504.20294"
+  authors: "William P. McCarthy, Saujas Vaduguru, Karl D. D. Willis, Justin Matejka, Judith E. Fan, Daniel Fried, Yewen Pu"
+  venue_line: "EMNLP 2025"
+  excerpt: "Multimodal instructions for iteratively refining CADs (text, sketch, or both) across human games—benchmarking VLMs on refinement versus generation."
+  paper_url: "https://arxiv.org/abs/2504.20294"
+  website_url: ""
+  image: /images/highlights/mrcad-teaser.png
+  tags:
+    - cad
+    - multimodal
+    - human-ai-collaboration
+
+- title: "When Robots Should Say \"I Don't Know\": Benchmarking Abstention in Embodied Question Answering"
+  title_url: "https://arxiv.org/abs/2512.04597"
+  authors: "Tao Wu, Chuhao Zhou, Guangyu Zhao, Haozhi Cao, Yewen Pu, Jianfei Yang"
+  venue_line: "CVPR 2026 (Highlight)"
+  excerpt: "AbstainEQA pairs abstention cases with OpenEQA; frontier models still trail humans on knowing when to abstain."
+  paper_url: "https://arxiv.org/abs/2512.04597"
+  website_url: ""
+  image: /images/highlights/abstain-eqa.png
+  tags:
+    - embodied-qa
+    - abstention
+    - robotics
+    - eqa
+
+- title: "Bongards at the Boundary of Perception and Reasoning: Programs or Language?"
+  title_url: "https://arxiv.org/pdf/2602.03038"
+  authors: "Cassidy Langenfeld, Claas Beger, Gloria Geng, Wasu Top Piriyakulkij, Keya Hu, Yewen Pu, Kevin Ellis"
+  venue_line: "CogSci 2026"
+  excerpt: "Neurosymbolic approach to Bongard problems: LLMs generate parameterized programmatic rules with Bayesian parameter fitting; evaluated on classification and full problem solving."
+  paper_url: "https://arxiv.org/pdf/2602.03038"
+  website_url: ""
+  image: /images/highlights/bongards.png
+  tags:
+    - bongard-problems
+    - vlm
+    - neurosymbolic
+    - reasoning
+
+- title: "Code Driven Planning with Domain-Adaptive Critic"
+  title_url: "https://arxiv.org/abs/2509.19077"
+  authors: "Zikang Tian, Shaohui Peng, Du Huang, Jiaming Guo, Ruizhi Chen, Rui Zhang, Xishan Zhang, Yuxuan Guo, Zidong Du, Qi Guo, Ling Li, Yewen Pu, Xing Hu, Yunji Chen"
+  venue_line: "ICLR 2026"
+  excerpt: "CoPiC uses LLM-generated planning programs to propose and refine plans and a trained domain-adaptive critic to pick candidates aligned with long-term rewards—stronger success with far fewer LLM queries (ALFWorld, NetHack, StarCraft II)."
+  paper_url: "https://arxiv.org/abs/2509.19077"
+  website_url: ""
+  image: /images/highlights/copic-teaser.png
+  tags:
+    - planning
+    - llm-agents
+    - critic
+    - sequential-decision-making
