@@ -5,6 +5,8 @@ hide_page_title: true
 author_profile: true
 ---
 
+<!-- People portraits are optimized for fast page loads. -->
+
 ## Principal investigator
 
 <div class="people-member people-member--director" markdown="0">
