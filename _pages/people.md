@@ -20,11 +20,11 @@ author_profile: true
 
 <div class="people-grid" markdown="0">
   <div class="people-member">
-    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Postdoc placeholder" width="200" height="200" />
+    <img class="people-member__photo" src="{{ '/images/people/yan-li.jpg' | relative_url }}" alt="Yan Li" width="200" height="200" />
     <div class="people-member__body">
-      <p class="people-member__name"><strong>To be announced</strong></p>
+      <p class="people-member__name"><strong>Yan Li</strong></p>
       <span class="people-member__badge">Postdoc</span>
-      <p>Profile to be updated.</p>
+      <p>Agentic AI/ Fuzzy Rule</p>
     </div>
   </div>
 </div>
