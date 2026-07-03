@@ -68,7 +68,7 @@ author_profile: true
       <div class="people-member">
         <img class="people-member__photo" src="{{ '/images/people/young-jin.jpg' | relative_url }}" alt="Young Jin" width="200" height="200" />
         <div class="people-member__body">
-          <p class="people-member__name"><strong>Young Jin</strong></p>
+          <p class="people-member__name"><strong><a href="https://whyjay.vercel.app/" target="_blank" rel="noopener noreferrer">Young Jin</a></strong></p>
           <span class="people-member__badge">Research assistant</span>
           <p>Program Synthesis with Human Collaboration</p>
         </div>
@@ -85,7 +85,7 @@ author_profile: true
         <div class="people-member__body">
           <p class="people-member__name"><strong>Abhipray Chavan</strong></p>
           <span class="people-member__badge">Master student</span>
-          <p>Profile to be updated.</p>
+          <p>Human-AI Collaboration</p>
         </div>
       </div>
     </div>
