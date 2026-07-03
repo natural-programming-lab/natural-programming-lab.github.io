@@ -214,6 +214,20 @@
     }
   }
 
+  .people-section-row {
+    display: grid;
+    gap: 0 2.5rem;
+    margin: 0 0 2rem;
+
+    @include breakpoint($medium) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .people-grid {
+      margin-bottom: 0;
+    }
+  }
+
   /* Research highlight cards (homepage, _data/research_highlights.yml) */
   .research-highlight-cards {
     display: flex;

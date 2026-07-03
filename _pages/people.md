@@ -58,30 +58,36 @@ author_profile: true
   </div>
 </div>
 
-## Research Assistants
+<div class="people-section-row" markdown="0">
+  <section class="people-section-row__column">
+    <h2>Research Assistants</h2>
 
-<div class="people-grid" markdown="0">
-  <div class="people-member">
-    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Research assistant placeholder" width="200" height="200" />
-    <div class="people-member__body">
-      <p class="people-member__name"><strong>To be announced</strong></p>
-      <span class="people-member__badge">Research assistant</span>
-      <p>Profile to be updated.</p>
+    <div class="people-grid">
+      <div class="people-member">
+        <img class="people-member__photo" src="{{ '/images/people/young-jin.png' | relative_url }}" alt="Young Jin" width="200" height="200" />
+        <div class="people-member__body">
+          <p class="people-member__name"><strong>Young Jin</strong></p>
+          <span class="people-member__badge">Research assistant</span>
+          <p>Program Synthesis with Human Collaboration</p>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  </section>
 
-## Master Students
+  <section class="people-section-row__column">
+    <h2>Master Students</h2>
 
-<div class="people-grid" markdown="0">
-  <div class="people-member">
-    <img class="people-member__photo" src="{{ '/images/people/abhipray-chavan.png' | relative_url }}" alt="Abhipray Chavan" width="200" height="200" />
-    <div class="people-member__body">
-      <p class="people-member__name"><strong>Abhipray Chavan</strong></p>
-      <span class="people-member__badge">Master student</span>
-      <p>Profile to be updated.</p>
+    <div class="people-grid">
+      <div class="people-member">
+        <img class="people-member__photo" src="{{ '/images/people/abhipray-chavan.png' | relative_url }}" alt="Abhipray Chavan" width="200" height="200" />
+        <div class="people-member__body">
+          <p class="people-member__name"><strong>Abhipray Chavan</strong></p>
+          <span class="people-member__badge">Master student</span>
+          <p>Profile to be updated.</p>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 </div>
 
 ## Undergraduate Students
