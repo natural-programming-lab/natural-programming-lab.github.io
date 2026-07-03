@@ -74,7 +74,7 @@ author_profile: true
     </div>
   </section>
 
-  <section class="people-section-row__column">
+  <section class="people-section-row__column people-section-row__column--master">
     <h2>Master Students</h2>
 
     <div class="people-grid">
