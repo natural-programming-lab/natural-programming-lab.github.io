@@ -33,7 +33,7 @@ author_profile: true
 
 <div class="people-grid" markdown="0">
   <div class="people-member">
-    <img class="people-member__photo" src="{{ '/images/people/shuzhi-liu.png' | relative_url }}" alt="Shuzhi Liu" width="200" height="200" />
+    <img class="people-member__photo" src="{{ '/images/people/shuzhi-liu.jpg' | relative_url }}" alt="Shuzhi Liu" width="200" height="200" />
     <div class="people-member__body">
       <p class="people-member__name"><strong>Shuzhi Liu</strong></p>
       <span class="people-member__badge">PhD student</span>
@@ -64,7 +64,7 @@ author_profile: true
 
     <div class="people-grid">
       <div class="people-member">
-        <img class="people-member__photo" src="{{ '/images/people/young-jin.png' | relative_url }}" alt="Young Jin" width="200" height="200" />
+        <img class="people-member__photo" src="{{ '/images/people/young-jin.jpg' | relative_url }}" alt="Young Jin" width="200" height="200" />
         <div class="people-member__body">
           <p class="people-member__name"><strong>Young Jin</strong></p>
           <span class="people-member__badge">Research assistant</span>
@@ -79,7 +79,7 @@ author_profile: true
 
     <div class="people-grid">
       <div class="people-member">
-        <img class="people-member__photo" src="{{ '/images/people/abhipray-chavan.png' | relative_url }}" alt="Abhipray Chavan" width="200" height="200" />
+        <img class="people-member__photo" src="{{ '/images/people/abhipray-chavan.jpg' | relative_url }}" alt="Abhipray Chavan" width="200" height="200" />
         <div class="people-member__body">
           <p class="people-member__name"><strong>Abhipray Chavan</strong></p>
           <span class="people-member__badge">Master student</span>
