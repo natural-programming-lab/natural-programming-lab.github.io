@@ -16,6 +16,19 @@ author_profile: true
   </div>
 </div>
 
+## Postdoc
+
+<div class="people-grid" markdown="0">
+  <div class="people-member">
+    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Postdoc placeholder" width="200" height="200" />
+    <div class="people-member__body">
+      <p class="people-member__name"><strong>To be announced</strong></p>
+      <span class="people-member__badge">Postdoc</span>
+      <p>Profile to be updated.</p>
+    </div>
+  </div>
+</div>
+
 ## PhD students
 
 <div class="people-grid" markdown="0">
@@ -41,6 +54,19 @@ author_profile: true
       <p class="people-member__name"><strong>Chengqi Zheng</strong></p>
       <span class="people-member__badge">PhD student</span>
       <p>Agentic AI, Reinforcement Learning</p>
+    </div>
+  </div>
+</div>
+
+## Research Assistants
+
+<div class="people-grid" markdown="0">
+  <div class="people-member">
+    <img class="people-member__photo" src="{{ '/images/people/photo-placeholder.svg' | relative_url }}" alt="Research assistant placeholder" width="200" height="200" />
+    <div class="people-member__body">
+      <p class="people-member__name"><strong>To be announced</strong></p>
+      <span class="people-member__badge">Research assistant</span>
+      <p>Profile to be updated.</p>
     </div>
   </div>
 </div>
