@@ -100,7 +100,7 @@ author_profile: true
     <div class="people-member__body">
       <p class="people-member__name"><strong>Rajvir</strong></p>
       <span class="people-member__badge">Undergraduate student</span>
-      <p>Profile to be updated.</p>
+      <p>Agentic iterative collaboration</p>
     </div>
   </div>
   <div class="people-member">
