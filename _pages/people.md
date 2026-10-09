@@ -66,6 +66,14 @@ author_profile: true
       <p>RL and Generalization</p>
     </div>
   </div>
+  <div class="people-member">
+    <img class="people-member__photo" src="{{ '/images/people/felipe-arias-russi.jpg' | relative_url }}" alt="Felipe Arias-Russi" width="200" height="200" />
+    <div class="people-member__body">
+      <p class="people-member__name"><strong>Felipe Arias-Russi</strong></p>
+      <span class="people-member__badge">PhD student</span>
+      <p>Reasoning Agents, Human-AI Collaboration</p>
+    </div>
+  </div>
 </div>
 
 <div class="people-section-row" markdown="0">
