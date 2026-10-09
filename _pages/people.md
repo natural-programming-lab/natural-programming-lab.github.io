@@ -58,6 +58,14 @@ author_profile: true
       <p>Agentic AI, Reinforcement Learning</p>
     </div>
   </div>
+  <div class="people-member">
+    <img class="people-member__photo" src="{{ '/images/people/do-duc-anh.jpg' | relative_url }}" alt="Do Duc Anh" width="200" height="200" />
+    <div class="people-member__body">
+      <p class="people-member__name"><strong>Do Duc Anh</strong></p>
+      <span class="people-member__badge">PhD student</span>
+      <p>RL and Generalization</p>
+    </div>
+  </div>
 </div>
 
 <div class="people-section-row" markdown="0">
